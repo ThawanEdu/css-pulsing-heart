@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coração Pulsando</title>
+
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: black;
+        }
+        p {
+            color: red;
+            font-size: 15vh;
+
+        }
+        .heart {
+            font-size: 19em;
+            animation: heart 0.6s linear infinite;
+        }
+
+        @keyframes heart {
+            0% {
+                transform: scale(1.07);
+            }
+            80% {
+                transform: scale(1.0);
+            }100% {
+                transform: scale(0.8);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="heart">❤️</div>
+    <p>Batimento Cardíaco em CSS </p>
+</body>
+</html>
